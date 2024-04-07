@@ -20,4 +20,10 @@
     <td [attr.colspan]="colSpan">colSpan value: {{ colSpan }}</td>
   </tr>
 </table>
+<button
+  class="btn btn-primary"
+  [style.backgroundColor]="isActive ? 'blue' : 'gray'"
+>
+  Press
+</button>
 <router-outlet />
